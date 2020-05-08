@@ -1,2 +1,2 @@
-# Burger_creater
-Burger_creater
+# burger_eater
+burger tracking app
