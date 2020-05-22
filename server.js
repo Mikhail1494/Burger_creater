@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 
 var PORT = process.env.PORT || 3000;
 
@@ -22,6 +23,6 @@ var routes = require("./controllers/burgers_controller");
 
 app.use(routes);
 
-app.listen(PORT, function() {
-  console.log("App now listening at localhost:" + PORT);
+app.listen(PORT, function () {
+    console.log("App now listening at localhost:" + PORT);
 });
